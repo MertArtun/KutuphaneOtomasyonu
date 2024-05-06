@@ -1,0 +1,43 @@
+Kütüphane Otomasyon Sistemi Proje Raporu
+Özet
+Günümüz dijital çağında, kütüphaneler kapsamlı koleksiyonlarını etkin bir şekilde yönetme konusunda zorluklarla karşılaşmaktadır. Bu proje, kitap kataloglama, ödünç verme, iade alma ve üyelik yönetimi gibi süreçleri dijitalleştirerek kütüphane operasyonlarını kolaylaştırmayı amaçlamaktadır. Bu temel işlevleri otomatikleştirerek kütüphane personelinin iş yükü azaltılırken, kullanıcılara daha hızlı hizmet sunulması hedeflenmektedir.
+
+I. Giriş
+Kütüphaneler, bilgiye erişimi sağlamak ve öğrenmeyi, araştırmayı teşvik etmek açısından önemli bir rol oynamaktadır. Ancak, geleneksel kütüphane yönetim sistemleri genellikle manuel süreçlere dayanmaktadır, bu da verimsizliklere ve gecikmelere neden olmaktadır. Kütüphane Otomasyon Sistemi projesi, bu zorlukları ele almayı amaçlayarak teknolojiyi kullanarak kütüphane operasyonlarını optimize etmeyi hedeflemektedir.
+
+II. Literatür Taraması
+Varolan kütüphane yönetim sistemlerini incelemek ve iyileştirme alanlarını belirlemek için kapsamlı araştırmalar yapılmıştır. Ana odak noktaları şunlardır:
+
+Veritabanı Performansı: Veritabanı indeksleme, sorgu optimizasyonu ve düzenli bakım gibi teknikler, sistem performansını artırmak için incelenmiştir.
+Kullanıcı Arayüzü Tasarımı: Kullanılabilirlik testleri ve kullanıcı geri bildirimleri, kütüphane kullanıcıları ve personeli için ihtiyaca uygun bir arayüz tasarımını şekillendirmiştir.
+III. Yazılım Mimarisi
+Proje, sunum katmanı, iş mantığı katmanı ve veri erişim katmanı gibi farklı katmanlardan oluşan bir katmanlı mimariyi benimsemektedir. Bu mimari yapının temel bileşenleri şunlardır:
+
+Sunum Katmanı: Kullanıcı arayüzlerini HTML, CSS ve JavaScript kullanarak geliştirir.
+İş Mantığı Katmanı: PHP kodu, iş kurallarını uygular ve sistem işlevselliğini yönetir.
+Veri Erişim Katmanı: MySQL veritabanı entegrasyonu, veri işleme ve yönetimini sağlar.
+IV. Veritabanı Şeması
+Veritabanı, kullanıcı hesaplarını, kitap kataloglamasını, ödünç alma işlemlerini ve diğer temel işlevleri desteklemek üzere tasarlanmıştır. Temel tablolar şunlardır:
+
+admin: Kütüphane yöneticileri hakkındaki bilgileri depolar.
+kitap: Başlıklar, yazarlar, açıklamalar ve mevcut durumlar dahil olmak üzere kütüphane kitaplarına ilişkin detayları içerir.
+üye: Üye hesaplarını ve bunlarla ilişkili bilgileri yönetir.
+[Veritabanı Şema Diyagramı Buraya Eklenecek]
+
+V. Sistem İşlevselliği
+Kütüphane Otomasyon Sistemi, kullanıcıların şunları yapmasını sağlar:
+
+Kütüphane kataloğundaki kitapları arama.
+Kitap ödünç alma ve iade etme.
+Üyelik hesaplarını yönetme.
+Kütüphane personeli şunları yapabilir:
+
+Yeni kitapları kataloga eklemek.
+Ödünç verme işlemlerini yönetme.
+Kütüphane faaliyetleri hakkında raporlar oluşturma.
+VI. Sonuç
+Kütüphane Otomasyon Sistemi projesi, kütüphane operasyonlarını modernize etmeyi, kullanıcı deneyimini iyileştirmeyi ve kütüphane kaynaklarına erişimi artırmayı amaçlamaktadır. Teknolojiyi ve yazılım geliştirme alanındaki en iyi uygulamaları kullanarak, sistem tüm boyutlardaki kütüphaneler için ölçeklenebilir ve verimli bir çözüm sunar.
+
+VII. Referanslar
+DergiPark: https://dergipark.org.tr
+Yordam BT Kütüphane Sistemleri: https://www.yordam.com
